@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 // Replace with your Flask route, keeping /test at the end
-const API_URL = "https://REPLACE-WITH-FLASK-ROUTE/test";
+const API_URL = "https://flask-test-api-juan-andara-dev.apps.rm3.7wse.p1.openshiftapps.com/test";
 
 function App() {
   const [result, setResult] = useState(null);
