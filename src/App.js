@@ -22,7 +22,12 @@ function App() {
   return (
     <div style={{ fontFamily: "sans-serif", padding: 20 }}>
       <h1>React + Flask Test</h1>
-      <button onClick={handleSubmit}>Submit</button>
+      <button
+  onClick={handleSubmit}
+  style={{ backgroundColor: "#4B286D", color: "#FFFFFF" }}
+>
+  Submit
+</button>
       {result && <pre>{JSON.stringify(result, null, 2)}</pre>}
       {error && <p style={{ color: "red" }}>Error: {error}</p>}
     </div>
